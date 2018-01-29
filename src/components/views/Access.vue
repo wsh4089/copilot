@@ -39,7 +39,7 @@
           </div>
           <!-- /.box-body -->
         </div>
-        <link rel="stylesheet" href="/static/js/plugins/jvectormap/jquery-jvectormap-2.0.3.css" >
+        <link rel="stylesheet" href="./static/js/plugins/jvectormap/jquery-jvectormap-2.0.3.css" >
       </div>
     </div>
   </section>
@@ -47,8 +47,8 @@
 <script>
 import {stats} from '../../demo'
 
-const pluginURL = '/static/js/plugins/jvectormap/jquery-jvectormap-2.0.3.min.js'
-const mapURL = '/static/js/plugins/jvectormap/jquery-jvectormap-world-mill.js'
+const pluginURL = './static/js/plugins/jvectormap/jquery-jvectormap-2.0.3.min.js'
+const mapURL = './static/js/plugins/jvectormap/jquery-jvectormap-world-mill.js'
 
 export default {
   name: 'Access',

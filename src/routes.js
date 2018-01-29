@@ -18,7 +18,7 @@ const routes = [
     component: LoginView
   },
   {
-    path: '/',
+    path: '/Copilot',
     component: DashView,
     children: [
       {

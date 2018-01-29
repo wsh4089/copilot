@@ -1,13 +1,13 @@
 <template>
   <ul class="sidebar-menu">
     <li class="header">TOOLS</li>
-    <router-link tag="li" class="pageLink" to="/">
+    <router-link tag="li" class="pageLink" to="/Copilot">
       <a>
         <i class="fa fa-desktop"></i>
         <span class="page">Dashboard</span>
       </a>
     </router-link>
-    <router-link tag="li" class="pageLink" to="/tables">
+    <router-link tag="li" class="pageLink" to="/Copilot/tables">
       <a>
         <i class="fa fa-table"></i>
         <span class="page">Tables</span>
@@ -15,13 +15,13 @@
     </router-link>
 
     <li class="header">ME</li>
-    <router-link tag="li" class="pageLink" to="/tasks">
+    <router-link tag="li" class="pageLink" to="/Copilot/tasks">
       <a>
         <i class="fa fa-tasks"></i>
         <span class="page">Tasks</span>
       </a>
     </router-link>
-    <router-link tag="li" class="pageLink" to="/setting">
+    <router-link tag="li" class="pageLink" to="/Copilot/setting">
       <a>
         <i class="fa fa-cog"></i>
         <span class="page">Settings</span>
@@ -55,13 +55,13 @@
     </li>
 
     <li class="header">LOGS</li>
-    <router-link tag="li" class="pageLink" to="/access">
+    <router-link tag="li" class="pageLink" to="/Copilot/access">
       <a>
         <i class="fa fa-book"></i>
         <span class="page">Access</span>
       </a>
     </router-link>
-    <router-link tag="li" class="pageLink" to="/server">
+    <router-link tag="li" class="pageLink" to="/Copilot/server">
       <a>
         <i class="fa fa-hdd-o"></i>
         <span class="page">Server</span>
@@ -76,7 +76,7 @@
     </router-link>
 
     <li class="header">PAGES</li>
-    <router-link tag="li" class="pageLink" to="/login">
+    <router-link tag="li" class="pageLink" to="/Copilot/login">
       <a>
         <i class="fa fa-circle-o text-yellow"></i>
         <span class="page"> Login</span>
